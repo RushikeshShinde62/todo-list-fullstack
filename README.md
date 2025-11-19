@@ -52,7 +52,7 @@ cd todo-list-fullstack
 
 From the root directory, run:
 
-npm run install:all
+```npm run install:all```
 
 
 This runs:
