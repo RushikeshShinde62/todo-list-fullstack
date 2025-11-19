@@ -1,47 +1,54 @@
-# 📌 Full Stack Todo App
+# Full Stack Todo App
 
 React + Node.js + Express + Concurrently
 
 A simple full-stack Todo List application with a React front-end and an Express/Node.js back-end.
 This project uses concurrently to run client & server together and includes installation scripts for both.
 
-🚀 **Features**
+## 🚀 Features
 
-React front-end with modern UI
+React front-end with modern UI  
 
-Node.js + Express back-end API
+Node.js + Express back-end API  
 
-Full CRUD for todos (currently GET/POST/DELETE)
+Full CRUD for todos (currently GET/POST/DELETE)  
 
-CORS enabled
+CORS enabled  
 
-Centralized root scripts
+Centralized root scripts  
 
-Clean file structure
+Clean file structure  
 
 .gitignore included to avoid node_modules commits
 
-🛠 **Technologies Used**
-Frontend
-React (Vite or CRA depending on setup)
-Axios
+## 🛠 Technologies Used
+### Frontend  
+
+React (Vite or CRA depending on setup)  
+
+Axios  
+
 CSS / Inline Styles
 
-Backend
-Node.js
-Express.js
-CORS
+### Backend  
 
-Tools
+Node.js  
+
+Express.js  
+
+CORS  
+
+
+### Tools
 nodemon
 concurrently
 
-📦 **Installation**
-1️⃣ Clone the repository
+## 📦 Installation
+### 1️⃣ Clone the repository
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 
-2️⃣ Install all dependencies (server + client)
+### 2️⃣ Install all dependencies (server + client)
 
 From the root directory, run:
 
@@ -54,7 +61,7 @@ npm install inside /server
 
 npm install inside /client
 
-▶️ Running the App (Development)
+### ▶️ Running the App (Development)
 
 To start both server + client at the same time:
 
@@ -67,13 +74,13 @@ Express backend on http://localhost:5000
 
 React frontend on http://localhost:3000
 
-Backend routes:
+## Backend routes:
 
 GET    /api/todos
 POST   /api/todos
 DELETE /api/todos/:id
 
-🧪 API Examples
+## 🧪 API Examples
 Add Todo
 
 POST /api/todos
@@ -88,7 +95,7 @@ Sample Response
   "text": "Learn Express"
 }
 
-📘 Available Scripts
+## 📘 Available Scripts
 Root Scripts
 "install:all": "concurrently \"npm install --prefix server\" \"npm install --prefix client\"",
 "server": "nodemon server/server.js",
@@ -101,18 +108,7 @@ npm run server
 Run client only:
 npm run client
 
-🔒 Environment Variables (Optional)
-
-For future updates, you may add a .env inside server/:
-
-PORT=5000
-
-
-and in React (inside client/):
-
-REACT_APP_API_URL=http://localhost:5000
-
-🤝 Contributing
+## 🤝 Contributing
 
 Pull requests are welcome!
 Feel free to improve UI, add features, or suggest enhancements.
