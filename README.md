@@ -5,7 +5,7 @@ React + Node.js + Express + Concurrently
 A simple full-stack Todo List application with a React front-end and an Express/Node.js back-end.
 This project uses concurrently to run client & server together and includes installation scripts for both.
 
-🚀 Features
+🚀 **Features**
 
 React front-end with modern UI
 
@@ -21,46 +21,22 @@ Clean file structure
 
 .gitignore included to avoid node_modules commits
 
-📁 Project Structure
-full-stack-app/
-│
-├── client/              # React front-end
-│   ├── public/
-│   ├── src/
-│   └── package.json
-│
-├── server/              # Express server
-│   ├── server.js
-│   └── package.json
-│
-├── package.json         # Root scripts (concurrently)
-├── .gitignore
-└── README.md
-
-🛠 Technologies Used
+🛠 **Technologies Used**
 Frontend
-
 React (Vite or CRA depending on setup)
-
 Axios
-
 CSS / Inline Styles
 
 Backend
-
 Node.js
-
 Express.js
-
 CORS
 
 Tools
-
 nodemon
-
 concurrently
 
-📦 Installation
+📦 **Installation**
 1️⃣ Clone the repository
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
@@ -135,21 +111,6 @@ PORT=5000
 and in React (inside client/):
 
 REACT_APP_API_URL=http://localhost:5000
-
-🧹 .gitignore Included
-
-Your .gitignore should include:
-
-node_modules/
-**/node_modules/
-build/
-client/build/
-.env
-.DS_Store
-.vscode/
-
-
-This prevents unnecessary packages from being committed.
 
 🤝 Contributing
 
