@@ -45,8 +45,8 @@ concurrently
 
 ## 📦 Installation
 ### 1️⃣ Clone the repository
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone `https://github.com/RushikeshShinde62/todo-list-fullstack.git`
+cd todo-list-fullstack
 
 ### 2️⃣ Install all dependencies (server + client)
 
