@@ -1,9 +1,10 @@
 # Full Stack Todo App
 
-React + Node.js + Express + Concurrently
+React + Node.js + Express + Concurrently  
 
-A simple full-stack Todo List application with a React front-end and an Express/Node.js back-end.
-This project uses concurrently to run client & server together and includes installation scripts for both.
+A simple full-stack Todo List application with a React front-end and an Express/Node.js back-end.  
+
+This project uses concurrently to run client & server together and includes installation scripts for both.  
 
 ## 🚀 Features
 
@@ -39,9 +40,11 @@ Express.js
 CORS  
 
 
-### Tools
-nodemon
-concurrently
+### Tools  
+
+nodemon  
+
+concurrently  
 
 ## 📦 Installation
 ### 1️⃣ Clone the repository
@@ -65,20 +68,22 @@ npm install inside /client
 
 To start both server + client at the same time:
 
-npm run dev
+```npm run dev```
 
 
 This runs:
 
-Express backend on http://localhost:5000
+Express backend on ```http://localhost:5000```
 
-React frontend on http://localhost:3000
+React frontend on ```http://localhost:5173```
 
 ## Backend routes:
 
-GET    /api/todos
-POST   /api/todos
-DELETE /api/todos/:id
+GET    /api/todos  
+
+POST   /api/todos  
+
+DELETE /api/todos/:id  
 
 ## 🧪 API Examples
 Add Todo
@@ -87,7 +92,7 @@ POST /api/todos
 
 {
   "text": "Learn Express"
-}
+}  
 
 Sample Response
 {
@@ -97,16 +102,19 @@ Sample Response
 
 ## 📘 Available Scripts
 Root Scripts
-"install:all": "concurrently \"npm install --prefix server\" \"npm install --prefix client\"",
-"server": "nodemon server/server.js",
-"client": "npm start --prefix client",
-"dev": "concurrently \"npm run server\" \"npm run client\""
+```"install:all": "concurrently \"npm install --prefix server\" \"npm install --prefix client\"",  ```
+
+```"server": "nodemon server/server.js",  ```
+
+```"client": "npm start --prefix client",  ```
+
+```"dev": "concurrently \"npm run server\" \"npm run client\""  ```
 
 Run server only:
-npm run server
+```npm run server```
 
 Run client only:
-npm run client
+```npm run client```
 
 ## 🤝 Contributing
 
