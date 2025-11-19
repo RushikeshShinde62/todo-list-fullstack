@@ -1,4 +1,4 @@
-📌 ##Full Stack Todo App
+📌 **Full Stack Todo App**
 
 React + Node.js + Express + Concurrently
 
